@@ -1,0 +1,106 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 0;
+  color:  #CC9543;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-shadow: 5px 6px 10px 3px rgba(0, 0, 0, 0.25);
+  margin: 40px auto;
+  max-width: 1000px;
+  border: 5px solid rgb(24, 57, 204);
+
+}
+h1 {
+  font-size: 40px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.header .logo {
+  width: 50px;
+}
+.header .title {
+  font-weight: bold;
+  color: blue;
+  -webkit-transform: rotate(-90deg);
+  font-size: 60px;
+
+}
+form {
+  color: black;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 40px;
+  font-size: 18px;
+  padding: 40px 0;
+}
+.sub-form {
+  color: black;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 20px;
+  font-size: 18px;
+  padding: 20px 0;
+}
+.long-input {
+  grid-column: 1/3;
+}
+.single-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 20px;
+}
+.single-input label, .single-input span, .single-input select {
+  color: #b3b3b3;
+}
+.single-input input, .single-input select, .single-input .input-mock {
+  border: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  box-sizing: border-box;
+  height: 30px;
+  font-size: 16px;
+  padding: 0 5px;
+}
+.single-input .input-mock {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #b3b3b3;
+  padding: 0 10px;
+  gap: 5px;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.send {
+  width: 120px;
+  height: 40px;
+  background-color: blue ;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.cancel-button {
+  background-color: #a73838;
+}
