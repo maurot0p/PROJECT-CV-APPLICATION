@@ -1,1 +1,1 @@
-A React app that allows users to create a CV/Resume for themselves. This project is part of The Odin Project course on ReactJS located here: https://www.theodinproject.com/courses/javascript/lessons/cv-application
+A React app that allows users to create a CV/Resume for themselves. 
